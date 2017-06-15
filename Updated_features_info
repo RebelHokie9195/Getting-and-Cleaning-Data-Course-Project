@@ -3,10 +3,18 @@
  The data is either time-domain or frequency-domain, depending on the value measured. 
  NOTE THAT ALL OF THE DATA IS NORMALIZED, SO THERE ARE NO UNITS, AND THE VALUES CAN RANGE BETWEEN -1 AND 1.
  
- The output data from this project is contained in the file
+ The output data from this project is contained in the file TidyData.txt.
+ The column names, in order, for TidyData.txt are listed below.  
  The same README.MD file also explains the manipulations on the raw data set to arrive at the list of columns (features) below.
- Finally, please note that the column names below fully desribe the nature of the data
+ Finally, please note that the column names below fully desribe the nature of the data, including:
+    a.  Whether the data is time-domain or frequency-domain.
+    b.  Whether the data is from a measure of the body movement or gravity.
+    c.  Whether the data is from the accelerometor or gyroscope.
+    d.  Whether the data is a mean or a standard deviation of the values collected for the releveant subject-activity combination.
+    e.  Whether the data is a measurement of jerk (rate of change in acceleration).
+    f.  Whether the data is along a particular axis or an overall magnitude.
   
+ The full list of column names (features) is:
  [1] "Subject" - An integer in the the range of 1 through 30 that defines the test subject (study participant) number.                                                                   
  [2] "Activity" - A text description of the activity being monitored.  The six possibilities (levels) are:
     a.  "LAYING"             
